@@ -39,6 +39,7 @@
         </config-file>
 
         <source-file src="src/android/LMPlugin.java" target-dir="src/org/apache/cordova/lmplugin" />
+        
     </platform>
 
 
@@ -49,11 +50,10 @@
             <param name="ios-package" value="LMPlugin" />
           </feature>
         </config-file>
-
+        
         <header-file src="src/ios/LMPlugin.h" />
         <source-file src="src/ios/LMPlugin.m" />
-
-	    <framework src="CoreGraphics.framework" />
+        
     </platform>
 
 </plugin>
